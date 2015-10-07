@@ -49,7 +49,7 @@ def checkaxfr(domain):
 def main():
   global PROCESSES, LOGFILE, OUTPUTFILE, INPUTFILE
 
-  parser = argparse.ArgumentParser(description='Check domains\' nameservers for AXFR')
+  parser = argparse.ArgumentParser(description='Check domains\' nameservers for public AXFR')
   parser.add_argument('-i', '--inputfile', type=str, nargs="?", default=sys.stdin, help='Inputfile to read domains from. Default: stdin')
   parser.add_argument('-o', '--outputfile', type=str, nargs="?", default=sys.stdout, help='Outputfile to write zonedata to. Default: stdout')
   parser.add_argument('-l', '--logfile', type=str, nargs="?", default=sys.stderr, help="Logfile to use. Default: stderr")
