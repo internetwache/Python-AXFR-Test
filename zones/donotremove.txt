@@ -1,1 +1,0 @@
-Downloaded zones will be saved into this folder.
