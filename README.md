@@ -2,12 +2,12 @@ AXFR-test.py
 ================
 A tool to test if the nameservers of a domain are misconfigured and allow AXFR (dns zone transfers) to anyone.
 
-#Requirements
+# Requirements
 
 - Python 3
 - ```dnspython``` library
 
-#Usage:
+# Usage:
 
 ```
 $> python axfr-test.py
@@ -30,13 +30,13 @@ optional arguments:
                         Domain to check. Ignored if -i is used.
 ```
 
-##Check a single domain:
+## Check a single domain:
 
 ```
-$> python axfr-test.py -d DOMAIN
+$> python axfr-test.py -d [DOMAIN]
 ```
 
-##Check multiple domains from a file
+## Check multiple domains from a file
 ```
 $> python axfr-test.py -i /tmp/domains.txt
 ```
